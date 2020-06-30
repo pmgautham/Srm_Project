@@ -1,0 +1,64 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical"
+    android:background="#FFF9C4">
+
+    <EditText
+        android:layout_width="280sp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:id="@+id/ue"
+        android:textColorHint="#050505"
+
+        />
+    <EditText
+        android:layout_width="280sp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="30sp"
+        android:layout_gravity="center"
+        android:id="@+id/pd"
+        android:textColorHint="#050505"
+
+
+        />
+
+    <EditText
+        android:layout_width="280sp"
+        android:layout_height="wrap_content"
+        android:hint="Email ID"
+        android:layout_marginTop="30sp"
+        android:layout_gravity="center"
+        android:id="@+id/ed"
+        android:textColorHint="#050505"
+
+        />
+    <EditText
+        android:layout_width="280sp"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:layout_marginTop="30sp"
+        android:layout_gravity="center"
+        android:id="@+id/pr"
+        android:textColorHint="#050505"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:onClick="ok"
+        android:background="#9C27B0"
+       android:textColor="#AEEA00" />
+
+</LinearLayout>
