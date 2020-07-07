@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Price"
+        android:id="@+id/cou"
+        />
+    <item
+        android:title="company"
+        android:id="@+id/cas"
+        />
+    <item
+        android:title="color"
+        android:id="@+id/del"
+        />
+
+</menu>
